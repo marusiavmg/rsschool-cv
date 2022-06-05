@@ -38,3 +38,12 @@ Link to my graduation project on GitHub: <br>
 https://github.com/marusiavmg/IT-Step_ExamProgects <br>
 https://github.com/marusiavmg/IT-Step_Exam_react
 ***
+### *Code example*
+~~~
+function stringCutter(str, finalIndex = 30, endOfString = "...") {
+        let beginOfString = str.slice(0, finalIndex);
+        return beginOfString + endOfString;
+        };
+let firstSentance = "But you have no right to call me a murderer";
+console.log(stringCutter(firstSentance));
+~~~
