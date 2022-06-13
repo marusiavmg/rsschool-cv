@@ -20,16 +20,14 @@ html {
 }
 
 .main-header {
-  border: 1px solid red;
   background-color:cadetblue;
 }
 
 .main {
-  border: 1px solid red;
+  background-color: inherit;
 }
 
 .footer {
-  border: 1px solid red;
   background-color:cadetblue;
 }
 
