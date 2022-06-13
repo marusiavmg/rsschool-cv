@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./assets/svg/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main__container container">
+      <section class="section">
+        <div class="cv-photo"></div>
+      </section>
+      <section class="section">
+        <h1 class="section-title title">Maryna Valovik</h1>
+        <h3 class="section-subtitle">Junior front-end developer</h3>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <div>
+          <ul class="contacts-list">
+            <li class="contacts-item"><span class="contacts-img"><img src="./assets/svg/location-dot-solid.svg" width="15" height="15" alt="image discord"></span>Mogilev, Belarus</li>
+            <li class="contacts-item"><span class="contacts-img"><img src="./assets/svg/square-envelope-solid.svg" width="15" height="15" alt="image mail"></span>Email:<span class="contacts-decor">marina.volovik@gmail.com</span> </li>
+            <li class="contacts-item"><span class="contacts-img"><img src="./assets/svg/github-brands.svg" width="15" height="15" alt="image github"></span>Github:<a href=" https://github.com/marusiavmg" class="contacts-link">marusiavmg</a></li>
+            <li class="contacts-item"><span class="contacts-img"><img src="./assets/svg/telegram-brands.svg" width="15" height="15" alt="image telegram"></span>Telegram:<span class="contacts-decor">@marusia_vmg</span> </li>
+            <li class="contacts-item"><span class="contacts-img"><img src="./assets/svg/discord-brands.svg" width="15" height="15" alt="image discord"></span>Discord:<span class="contacts-decor">Marina#6527</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section-profile" id="profile">
+        <h2 class="section-title">Profile</h2>
+        <p class="profile-text"> 
+          I'm responsible and hard working person, honest and punctual.
+          I have good listening and communication skills. I'm a fast learning,
+          non-conflicting and flexible person. I'm able to work well both
+          in a team environment as well as using own initiative.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div>
+          <ul class="skills-list">
+            <li class="skills-item">Web-development:<span class="skills-decor">HTML5/CSS3/JavaScript</span></li>
+            <li class="skills-item">Frameworks and libraries:<span class="skills-decor">React</span></li>
+            <li class="skills-item">Version control:<span class="skills-decor">Git, GitHub</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <div class="section__block-code">
+            <p>
+              <code>
+                <span>function stringCutter(str, finalIndex = 30, endOfString = "...") {</span><br>
+                <span class="string-code"> let beginOfString = str.slice(0, finalIndex);</span><br>
+                <span class="string-code"> return beginOfString + endOfString;</span><br>
+                <span>};</span>
+              </code>
+          </p>
+        </div>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <div>
+          <ul class="courses-list">
+            <li class="courses-item">IT-Step:<span class="courses-decor">JavaScript development</span></li>
+            <li class="courses-item">RS-School:<span class="courses-decor">JavaScript PreSchool 2022Q2</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div>
+          <ul class="projects-list">
+            <li class="projects-item"><a href="http://github.com/marusiavmg/IT-Step_ExamProgects" class="projects-link">JavaScript project</a></li>
+            <li class="projects-item"><a href="http://github.com/marusiavmg/IT-Step_Exam_react " class="projects-link">React project</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <div>
+            <ul class="education-list">
+              <li class="education-item">Belorussian-Russian University</li>
+            </ul>
+          </div>
+      </section>
+      <section class="section" id="english">
+        <h2 class="section-title">English</h2>
+        <div>
+          <ul class="english-list">
+            <li class="english-item">Pre-Intermediate B1</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <section class= "section footer-section-copyright">
+        <span>
+          <img src="./assets/svg/copyright106852.png" width="10" hegit addight="10" alt="copyright">
+        </span>
+        <span class="footer-year">2022</span>
+        <a href=" https://github.com/marusiavmg" class="footer-link">marusiavmg</a>
+      </section>
+      <section class="section footer-section-logo">
+        <a href="https://rs.school/js/" class="logo-link">
+          <img src="./assets/svg/rs_school_js.svg" width="60" height="40" alt="img rs-school_js">
+        </a>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
